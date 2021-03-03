@@ -1,0 +1,154 @@
+html, body	{
+	height: 100%;
+	overflow:hidden;
+	background:black;
+	margin:0;
+	padding:0;
+	font-family:Tahoma,Geneva,Verdana,sans-serif;
+	color:white;
+}
+body[orient="portrait"]	{
+	width:320px;
+	}
+body[orient="landscape"]	{
+	width:356px;
+	}
+#ttlCntrls	{
+	position:absolute;
+	z-index:11;
+	bottom:100px;
+	right:25px;
+	background:black;
+	}
+	
+#ttlCntrls:hover	{
+	cursor:pointer;
+	}
+	
+	
+ul	{
+	margin:0;
+	padding:0;
+	}
+li	{
+	display:none;
+	font-size:24px;
+	background:black;
+	padding:10px 15px;
+	font-variant:small-caps;
+	margin:0;
+	}
+	
+#hiddenCntrls	{
+	position:absolute;
+	z-index:1000;
+	top:25px;
+	left:25px;
+	}
+#hiddenCntrls li	{
+	display:block;
+	margin-bottom:10px;
+	width:100px;
+	text-align:center;
+	}
+#hiddenCntrls li:hover	{
+	cursor:pointer;
+	background:white;
+	color:black;
+	}
+	
+#pages	{
+	position:relative;
+	z-index:790;
+	margin:20px auto;
+	width:640px;
+	overflow:auto;
+	}
+#pages > div	{
+	display:none;
+	background:black;
+	padding:20px;
+	}
+
+#headBox	{
+	padding:15px;
+}
+
+#fakeCntrls	{
+	position:absolute;
+	z-index:800;
+	width:205px;
+	height:45px;
+	bottom:100px;
+	right:25px;
+	}
+
+#LOBLAST	{
+	position:absolute;
+	z-index:450;
+	}
+	
+	
+#heartNebula	{
+	position:absolute;
+	z-index:10;
+	width:130%;
+	//height:185%;
+	}
+	
+#starsNear	{
+	position:absolute;
+	z-index:12;
+	background:url(starsNear.png);
+	width:200%;
+	height:200%;
+	}
+	
+#dwargle, #dworgle	{
+	position:absolute;
+	z-index:6;
+	top:-50px;
+	left:-50px;
+	width:32px;
+	height:48px;
+	}
+
+#BUTT	{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	}
+	
+#BUTT .barr	{
+	position:relative;
+	z-index:500;
+	background:#333;
+	}
+	
+#BUTT #skyline	{
+	position:relative;
+	z-index:5;
+	height:360px;
+	background:url(skyline.png);
+	}
+	
+#BUTT #grass	{
+	position:relative;
+	z-index:50;
+	height:50px;
+	margin-top:-50px;
+	width:100%;
+	background:url(grass.png);
+	}
+	
+#genres	{
+	position:absolute;
+	z-index:500;
+	width:100%;
+	top:0;
+	margin:0;
+	padding:0;
+	}
+#genres li	{
+	text-align:right;
+	}

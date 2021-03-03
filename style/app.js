@@ -74,8 +74,8 @@ $(document).ready(function(){
   loRotIndex = 0;
   loRotDir = 1;
 
-  dworgle = $("#dworgle");
-  dwargle = $("#dwargle");
+  dworgle = $("#st1");
+  dwargle = $("#st2");
 
   space0 = $("#starsNear");
   space1 = $("#heartNebula");
@@ -236,7 +236,7 @@ function Dworgle() {
     dworgle.animate({
       left: [bodyW+rand(1000), 'easeInQuad'],
       top: [grPos.top+100, 'easeOutBounce'],
-      width: 128,
+      width: 192,
       height: 192
       }, rand(1000)+2000, 'linear',function(){
         $(this).css({top:-50,left:-50,width:8,height:12});
@@ -246,9 +246,9 @@ function Dworgle() {
     break;
   case 1:
     dworgle.animate({
-      left: [-rand(1000)-128, 'easeInQuad'],
+      left: [-rand(1000)-192, 'easeInQuad'],
       top: [grPos.top+100, 'easeOutBounce'],
-      width: 128,
+      width: 192,
       height: 192
       }, rand(1000)+2000, 'linear',function(){
         $(this).css({top:-50,left:bodyW,width:8,height:12});
@@ -277,7 +277,7 @@ function Dwargle() {
     dwargle.animate({
       left: [bodyW+rand(1000), 'easeInQuad'],
       top: [grPos.top+100, 'easeOutBounce'],
-      width: 128,
+      width: 192,
       height: 192
       }, rand(1000)+2000, 'linear',function(){
         $(this).css({top:-50,left:bodyW,width:8,height:12});
@@ -289,7 +289,7 @@ function Dwargle() {
     dwargle.animate({
       left: [-rand(1000)-128, 'easeInQuad'],
       top: [grPos.top+100, 'easeOutBounce'],
-      width: 128,
+      width: 192,
       height: 192
       }, rand(1000)+2000, 'linear',function(){
         $(this).css({top:-50,left:bodyW,width:8,height:12});

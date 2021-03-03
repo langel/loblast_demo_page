@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>LOBLAST</title>
-<link rel="stylesheet" type="text/css" href="style/loblast.css">
+<link rel="stylesheet" type="text/css" href="style/loblast_2010.css">
 <script type="text/javascript" src="style/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="style/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="style/app_2010.js"></script>
